@@ -3,8 +3,13 @@ public class Animal {
     public int numberOfeyes;
     public String name;
 
+    public Animal(int numberOfeyes,int numberOfLegs,String name){
+        this.name=name;
+        this.numberOfeyes=numberOfeyes;
+        this.numberOfLegs=numberOfLegs;
+    }
     public void printAnimal(){
-        System.out.println(name,numberOfeyes,numberOfLegs);
+        System.out.println(name+" "+numberOfeyes+" "+numberOfLegs);
     }
 
     public int getNumberOfLegs() {

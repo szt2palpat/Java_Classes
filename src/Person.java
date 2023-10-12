@@ -4,6 +4,15 @@ public class Person {
     public int birthYear;
     public int birthMonth;
     public int birthDay;
+
+    public Person(String firstName, String lastname, int birthYear, int birthMonth, int birthDay) {
+        this.firstName = firstName;
+        Lastname = lastname;
+        this.birthYear = birthYear;
+        this.birthMonth = birthMonth;
+        this.birthDay = birthDay;
+    }
+
     private void printPerson() {
         System.out.println("Vezetéknév: "+Lastname+"\n"+"Utonév: "+firstName+"\n"+"Születési idő: "+birthYear+"."+birthMonth+"."+birthDay);
     }
